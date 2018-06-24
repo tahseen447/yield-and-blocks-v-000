@@ -7,6 +7,8 @@ if block_given?
     i+=1
   end
   array
+else
+  puts "No block was given!"
 end
 
 # call your method here!
